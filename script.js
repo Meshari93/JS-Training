@@ -1,15 +1,22 @@
- //Declare, Assignment Operator, Assign Value
 
-//  Variables
+// can contatin digits, letter, underscores, and dollar signs
+// start with letter, $ or _
 
-let name = "Meshari Jabbar";
-let address, zip, state;
+//no keyword 
+// cannot start with number
 
-address = "North Riyadh";
-zip = "60621";
-state = "Riyadh";
+// fullName vs Fullname - cae sensitive 
 
-console.log(name);
-console.log(address);
-console.log(zip);
-console.log(state);
+// camelCase or underscore
+//let const var
+
+let name123_$ = "Meshari";
+
+console.log(name123_$);
+
+let $father_Name123_$ = "Jabbar";
+
+console.log($father_Name123_$);
+
+let fullName = "Meshari Jabbar";
+console.log(fullName);

@@ -1,8 +1,15 @@
- console.log("Hello Friend");
-//  ths is console log statement
+ //Declare, Assignment Operator, Assign Value
 
-/*
- document.write("Hello Document");
- console.log("Hello Friend");
- document.write("Hello Document");
- */
+//  Variables
+
+let name = "Meshari Jabbar";
+let address, zip, state;
+
+address = "North Riyadh";
+zip = "60621";
+state = "Riyadh";
+
+console.log(name);
+console.log(address);
+console.log(zip);
+console.log(state);

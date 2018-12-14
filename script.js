@@ -1,26 +1,21 @@
-// Implicit type conversion 
+// Primitive Data Types in Javascript
 
-let value1 = "Meshari";
-let value2 = "Jabbar";
+// String 
+let text = "this is text";
+//Number 
+let value = 123;
+//Boolean 
+let value1 = true;
+let value2 = false;
+// Null
+let number23 = null;
+// undefined
+let name;
+// Symbols(ES6)
 
-let result = value1 + value2;
-
-console.log(result);
-
-let value3 = "10";
-let value4 = "3";
-
-let result2 = value3 + value4;
-console.log(result2);
-
-let result3 = value3 - value4;
-console.log(result3);
-
-let number = 123;
-
-let result4 = value3 + number;
-console.log(result4);
-
-let result5 = value1 + number;
-console.log(result5);
-
+console.log(typeof text + " => " + text);
+console.log(typeof value + " => " + value);
+console.log(typeof value1 + " => " + value1);
+console.log(typeof value2 + " => " + value2);
+console.log(typeof number23 + " => " + number23);
+console.log(typeof name + " => " + name);

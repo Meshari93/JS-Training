@@ -1,27 +1,21 @@
-// Function In Java script 
+ // Objects In Javascript 
 
-// Declaration, Invoke, Return, Parameters, Expression 
+ let person = {
+     name: "Meshari",
+     lastName: 'Jabbar',
+     age: 25,
+     education: false,
+     wife: true,
+     sibling:['sister', 'brother'],
+     fullName: function () {
+         console.log("And the full name of the person is : " + person.name + " " + person.lastName )
+     }
+ }
 
-function hello () {  // Declaration 
-    console.log("Hello World");
-}
+ let personName = person.name;
+ let personLastName = person['lastName'];
 
-hello();  // Invoke
+ console.log(personName);
+ console.log(personLastName);
 
-function add (num1, num2) {    // Parameters
-    let sum = num1 + num2;
-    return sum;
-}
-
-console.log(add(2, 5));
-console.log(add(2, 6));
-
-let result = add(6, 5);
-console.log(result);
-
-let result2 = function (num1, num2) {  // Expression
-    let div = num1 / num2;
-    return div;
-}
-
-console.log(result2(24, 3));
+ person.fullName();

@@ -1,16 +1,27 @@
-// Arrays In Java Scrept
+// Function In Java script 
 
-let frind1 = "John";
-let frind2 = "Peter";
-let frind3 = "Bob";
-let frind4 = "Will";
+// Declaration, Invoke, Return, Parameters, Expression 
 
-let friends = new Array("John", "Peter", "Bob", "Will");
+function hello () {  // Declaration 
+    console.log("Hello World");
+}
 
-let oldFriends = ["Peter", 45, true, null, undefined];
+hello();  // Invoke
 
-oldFriends[0] = "Bob";
+function add (num1, num2) {    // Parameters
+    let sum = num1 + num2;
+    return sum;
+}
 
-let bestFriend = oldFriends[0];
+console.log(add(2, 5));
+console.log(add(2, 6));
 
-console.log(bestFriend);
+let result = add(6, 5);
+console.log(result);
+
+let result2 = function (num1, num2) {  // Expression
+    let div = num1 / num2;
+    return div;
+}
+
+console.log(result2(24, 3));

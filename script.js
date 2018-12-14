@@ -1,40 +1,26 @@
-//Numbers
+// Implicit type conversion 
 
+let value1 = "Meshari";
+let value2 = "Jabbar";
 
-let number = 4;
-let number2 = 2.25;
+let result = value1 + value2;
 
-let sum = number + number2;
-let sub = number - number2;
+console.log(result);
 
-let mul = number * number2;
-let div = number / number2;
+let value3 = "10";
+let value4 = "3";
 
+let result2 = value3 + value4;
+console.log(result2);
 
-console.log(sum);
-console.log(sub);
-console.log(sub);
-console.log(div);
+let result3 = value3 - value4;
+console.log(result3);
 
-let mod1 = 9;
-let mod2 = 5;
+let number = 123;
 
-let mod = mod1 % mod2;
+let result4 = value3 + number;
+console.log(result4);
 
-console.log(mod);
+let result5 = value1 + number;
+console.log(result5);
 
-let addition = 4+6+10*10;
-let addition2 = (4+6+10)*10;
-
-console.log(addition);
-console.log(addition2);
-
-let add = 10;
-
-add +=1;
-add ++;
-
-add -=1;
-add --;
-
-console.log(add);

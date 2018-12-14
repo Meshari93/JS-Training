@@ -1,22 +1,19 @@
+ // String Concatenation
 
-// can contatin digits, letter, underscores, and dollar signs
-// start with letter, $ or _
 
-//no keyword 
-// cannot start with number
+//  first example
+ let name = "meshari";
+ let lastName = "Alghamdi";
+ let fullName;
 
-// fullName vs Fullname - cae sensitive 
+ console.log("Hello there your name is : " + name + lastName);
 
-// camelCase or underscore
-//let const var
+ fullName = name + " " + lastName;
 
-let name123_$ = "Meshari";
+ console.log("Hello there your full name is : " + fullName);
 
-console.log(name123_$);
+ // second example
+ let info = "google";
+ let url = "http://www." + info + ".com"
 
-let $father_Name123_$ = "Jabbar";
-
-console.log($father_Name123_$);
-
-let fullName = "Meshari Jabbar";
-console.log(fullName);
+ console.log(url);

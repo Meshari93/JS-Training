@@ -1,16 +1,16 @@
- // Data Type in Java Script
+// Arrays In Java Scrept
 
- //arrays, function, objects
+let frind1 = "John";
+let frind2 = "Peter";
+let frind3 = "Bob";
+let frind4 = "Will";
 
- let fruits = ['apple', 'orange', 'banana'];
- let code = function code (){
-    console.log("Hello World");
- }
-let person = {
-    name : "Meshari",
-    lastName : "Alghamdi"
-}
+let friends = new Array("John", "Peter", "Bob", "Will");
 
-console.log(typeof fruits + " => " + fruits);
-console.log(typeof code + " => " + code);
-console.log(typeof person + " => " + person.name, person.lastName);
+let oldFriends = ["Peter", 45, true, null, undefined];
+
+oldFriends[0] = "Bob";
+
+let bestFriend = oldFriends[0];
+
+console.log(bestFriend);

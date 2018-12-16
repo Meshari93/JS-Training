@@ -1,41 +1,11 @@
-// String 
-let name = 'meshari';
-let lastName = 'jabbar';
+// Template Strings
 
-let fullName = name + ' ' + lastName; // Concatination
+let name = 'john';
+let age = 25;
+let sentence = `Hey it's ${name} and he's ${age + 25}`;
 
-console.log(fullName);
+// console.log('Hey it"s ' + name + ' and he\'s ' + age);
+// console.log(`Hey it's ${name} and he's ${age + 25}`);
 
-let person = {
-  name : 'meshari',
-  lastName : 'jabbar',
-  fullName : function () {  //methods
-    console.log(this.name + " " + this.lastName);    
-  }
-}
-
-console.log(person.name);
-
-let human = "Meshari Jabbar";
-let length = human.length;
-
-console.log(human.length);
-
-console.log(human.toLowerCase());
-console.log(human.toUpperCase());
-
-console.log(human.charAt(0));
-console.log(human.charAt(human.length-1));
-
-console.log(human.indexOf('e'));
-
-console.log(human.toLocaleLowerCase().startsWith('meshari'));
-console.log(human.toLocaleLowerCase().endsWith('jabbar'));
-
-console.log(human.slice(0,3));
-console.log(human.slice(-5));
-
-console.log(human.includes('zzz'));
-
-
+console.log(sentence);
 

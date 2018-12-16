@@ -1,17 +1,18 @@
-// for loop with array
+// Global Math Object 
 
-// for (let i = 0; i<10; i++){
-//   console.log(`Your number is ${i}`);
-  
-// }
+let number = 4678;
 
-let friends = ['bob', 'susy', 'john', 'eddy', 'loga'];
-for (let i = 0; i<friends.length; i++){
-  console.log(`Your friend  number  ${i+1} is ${friends[i]}`);  
-}
+// let result = Math.floor(number);
+// let result = Math.ceil(number);
 
-console.log("----------------------------------");
+// let result = Math.sqrt(number);
 
-for (let j = friends.length-1; j>=0; j--){
-  console.log(`Your friend  number  ${j+1} is ${friends[j]}`);  
-}
+// let result = Math.PI;
+
+// let result = Math.min(1, 8, 3, 5, 7);
+// let result = Math.max(1, 8, 3, 5, 7);
+
+let result = Math.floor((Math.random()*10)+1);
+
+
+console.log(result);

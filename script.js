@@ -1,23 +1,23 @@
-// Unary operator 
+//  Switch && if
+ let dice =1;
 
-let text = "string";
-console.log(typeof text); // operand
+//  if (dice===1) {
+//      console.log("You got one");
+//  }
+//  else if (dice===2) {
+//      console.log("You got two");     
+//  }
+//  else{
+//      console.log("You did not roll the dice");
+//  }
 
-// binary 
-
-let number = 3;
-// ternary 
-
-// condition ? (runs if true) : (runs if false);
-
-let result = 9;
-
-// result%2===0 ? console.log("even number") : console.log("odd number")
-
-let expression = result%2;
-
-function response (text) {
-    console.log(text + "number");
-}
-
-expression === 0 ? response("even ") : response("odd ");
+switch(dice){
+    case 1:
+    console.log("You got one");
+    break;
+    case 2:
+    console.log("You got two");
+    break;
+    default:
+    console.log("You did not roll the dice");
+ }

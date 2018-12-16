@@ -1,35 +1,23 @@
-//"". '', ``, 0, -0, NaN, false, null, undefined
+// Unary operator 
 
-let bool1 = true;
-let bool2 = false;
+let text = "string";
+console.log(typeof text); // operand
 
-console.log(typeof bool1);
-console.log(typeof bool2);
+// binary 
 
-let value = 2 < 5;
+let number = 3;
+// ternary 
 
-console.log(typeof value);
+// condition ? (runs if true) : (runs if false);
 
-let result = false;
+let result = 9;
 
-if(result){
-    console.log("another boolean");
-}
-let number = 5;
-if(number <6 ){
-    console.log("anothewr boolean");
-}
-let text = "just a text ";
+// result%2===0 ? console.log("even number") : console.log("odd number")
 
-if(text){
-    console.log("how this is possible");
+let expression = result%2;
+
+function response (text) {
+    console.log(text + "number");
 }
 
-let falsy = 0;
-if (falsy) {
-    console.log("runs only if true");
-} 
-else {
-    console.log("turn out be false");
-    
-}
+expression === 0 ? response("even ") : response("odd ");

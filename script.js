@@ -1,8 +1,10 @@
   // repeatedly run a block of cade while certain condition is true 
-  // while loop
+  // do loop
 
-  let amount = 10;
-  while (amount>0) {
-      console.log("I have " + amount + " Dollars and I'm going to the mail");
-      amount++;
-    }
+  let money = 0;
+
+  do {
+     console.log("You have " + money + " and you are going to the mall");
+     money++;
+  } while(money<10);
+  

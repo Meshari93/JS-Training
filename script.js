@@ -1,13 +1,27 @@
-  // repeatedly run a block of cade while certain condition is true 
-  // for  loop
+//  Primitive Data Types 
+// String, Number, Symbol, Boolean, Undefined, Null
+// Arrays, Function, Objects = object
+// (typeof)
 
-  let i;
+// assigning to primitive value any changes
+// are made directly to that value
 
-  for(i=0;i<10;i++) {
-      console.log("And the number is " + i);
-      
-  }
+// assigning non-primitive value to varible is done by reference 
+//so any the changes will affect all the references 
 
-for (let number = 11; number >= 0; number--) {
-    console.log("And the nnumber is " + number);
-}
+let number = 1;
+let number2 = number;
+number2 =4;
+
+console.log('the first value is ' + number);
+console.log('the second value is ' + number2);
+
+let person = {name:'bob'};
+let person2 = person;
+person2.name = 'john';
+
+console.log('the name of the first person ' + person.name);
+console.log('the name of second person ' + person2.name);
+
+
+

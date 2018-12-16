@@ -1,27 +1,13 @@
-//  Primitive Data Types 
-// String, Number, Symbol, Boolean, Undefined, Null
-// Arrays, Function, Objects = object
-// (typeof)
+// both represent "no-value"
 
-// assigning to primitive value any changes
-// are made directly to that value
+// undefined ---- " javascript can not find value for this"
 
-// assigning non-primitive value to varible is done by reference 
-//so any the changes will affect all the references 
+//null -----"programmer set the value"
 
-let number = 1;
-let number2 = number;
-number2 =4;
+let number = 20 +null; //20 + 0
 
-console.log('the first value is ' + number);
-console.log('the second value is ' + number2);
+console.log(number);
 
-let person = {name:'bob'};
-let person2 = person;
-person2.name = 'john';
+let number2 = 20 + undefined;
 
-console.log('the name of the first person ' + person.name);
-console.log('the name of second person ' + person2.name);
-
-
-
+console.log(number2);

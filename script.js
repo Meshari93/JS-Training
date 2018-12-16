@@ -1,12 +1,35 @@
- // Logical Operators && and ||
+//"". '', ``, 0, -0, NaN, false, null, undefined
 
- let day = "monday";
- let money = 54;
+let bool1 = true;
+let bool2 = false;
 
- if (day === "friday" || money > 50) {
-     console.log("You are going out");
- }
+console.log(typeof bool1);
+console.log(typeof bool2);
 
- if (day === "friday" && money > 50) {
-    console.log("You are going out");
+let value = 2 < 5;
+
+console.log(typeof value);
+
+let result = false;
+
+if(result){
+    console.log("another boolean");
+}
+let number = 5;
+if(number <6 ){
+    console.log("anothewr boolean");
+}
+let text = "just a text ";
+
+if(text){
+    console.log("how this is possible");
+}
+
+let falsy = 0;
+if (falsy) {
+    console.log("runs only if true");
+} 
+else {
+    console.log("turn out be false");
+    
 }

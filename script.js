@@ -1,18 +1,17 @@
-// Global Math Object 
+// Date and Time
+const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 
+                'September', 'October', 'November', 'December' ];
+const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 
-let number = 4678;
+let date = new Date();
+// let date = new Date('1/12/2004');
+let month = date.getMonth();
+let day = date.getDay();
 
-// let result = Math.floor(number);
-// let result = Math.ceil(number);
+console.log(date);
+console.log(month);
+console.log(day);
 
-// let result = Math.sqrt(number);
-
-// let result = Math.PI;
-
-// let result = Math.min(1, 8, 3, 5, 7);
-// let result = Math.max(1, 8, 3, 5, 7);
-
-let result = Math.floor((Math.random()*10)+1);
+console.log(`Month is : ${months[month]} and the date is : ${days[day]} `);
 
 
-console.log(result);
